@@ -6,3 +6,5 @@ def main():
         print("Correo válido.")
     else:
         print("Correo inválido.")
+
+main()

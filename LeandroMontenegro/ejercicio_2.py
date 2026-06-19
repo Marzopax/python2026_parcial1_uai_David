@@ -1,12 +1,12 @@
 
 def main():
 
-    def pedir_entero():
+
         while True:
             try:
-                edad = int(input("ngresa tu edad: "))
-                return edad
+                edad = int(input("ingresa tu edad: "))
+                print(f"Tu edad es: {edad}")
+                break;
             except ValueError:
                 print("Error: ingresa un número válido.")
-                break;
 main()

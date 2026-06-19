@@ -1,8 +1,10 @@
-import csv 
+alumnos = [
+    {"nombre": "Zack", "casa": "Slytherin"},
+    {"nombre": "Ana", "casa": "Gryffindor"}
+]
+
 def main():
-    with open("estudiantes.csv", mode="r") as archivo:
-        lector_csv = csv.DictReader(archivo)
-        for fila in lector_csv:
-            print(fila["nombre"])
+    for alumno in sorted(alumnos, key=lambda x: x["nombre"]):
+        print(f"{alumno['nombre']}")
 
 main()
