@@ -8,24 +8,24 @@
 
 ---
 
-| # | Alumno | Nota | Ej1 | Ej2 | Ej3 | Ej5 | Ej6 | Ej7 | Ej8 | Tipo de error |
-|---|--------|------|-----|-----|-----|-----|-----|-----|-----|---------------|
-| 1 | Lucas Calvo Coltro | **70/70** | 10 | 10 | 10 | 10 | 10 | 10 | 10 | Estructura (archivos en raíz) |
-| 2 | Franco Terrazzino | **36/70** | 9 | 4 | 2 | 9 | 10 | 0 | 2 | Estructura (subdirectorios EJERCICIO 1/, naming), Conceptual (ej3: bucle en vez de comprensión, ej8: print en __str__), No entregado (ej7) |
-| 3 | Fernando Almansa | **70/70** | 10 | 10 | 10 | 10 | 10 | 10 | 10 | CSV fuera del directorio |
-| 4 | Mateo Dip | **68/70** | 10 | 9 | 10 | 10 | 9 | 10 | 10 | Detalle (ej2: "numero" sin tilde, ej6: typo "Correco") |
-| 5 | Ulises Sosa | **0/70** | 0 | 0 | 0 | 0 | 0 | 0 | 0 | No entregado (ej1-8) |
-| 6 | Perez Carlos | **55/70** | 10 | 10 | 1 | 4 | 10 | 10 | 10 | Conceptual (ej3: bucle for + .append roto en vez de comprensión), Confusión (ej5 entregado como ej4) |
-| 7 | Gallaretto Leonel | **67/70** | 10 | 9 | 10 | 10 | 10 | 10 | 8 | Naming (ejercicio.8.py con punto), Detalle (ej2: validación de rango no pedida) |
-| 8 | Sebastian Cordoba | **22/70** | 4 | 5 | 0 | 4 | 2 | 0 | 7 | Estructura (carpeta con espacio), Conceptual (ej1: .capitalize() en vez de .title(), sin print, ej5: .split() en dict, ej6: regex sin escapes ni $), No entregado (ej3, ej7), Copy-paste del enunciado como comentarios |
-| 9 | Lucas Jaime | **69/70** | 10 | 10 | 10 | 10 | 10 | 9 | 10 | Detalle (ej7: no imprime confirmación), Falta estudiantes.csv |
-| 10 | Mateo Duran | **69/70** | 9 | 10 | 10 | 10 | 10 | 10 | 10 | Detalle (ej1: falta coma en "Hola, Nombre") |
-| 11 | Pares JuanCruz | **66/70** | 8 | 10 | 10 | 10 | 9 | 9 | 10 | Detalle (ej1: "¡Hola!" con signos extra, ej6: @ escapado innecesario, ej7: mensaje del else impreciso) |
-| 12 | David Carletta | **3/70** | 2 | 1 | 0 | 0 | 0 | 0 | 0 | Conceptual (ej1: .capitalize() y concatenación en vez de f-string, ej2: input() fuera del try, ej3: bucle for, ej5: DictReader mal usado, ej7: sys.argv==1 siempre False), No entregado (ej6, ej8), Sintaxis (ej5: open sin comillas) |
-| 13 | Leandro Montenegro | **37/70** | 5 | 7 | 6 | 10 | 4 | 0 | 5 | Estructura (directorio sin guion bajo), Conceptual (ej6: regex sin escapar puntos, ej8: comillas extra en __str__), Detalle (ej1: nombre+apellido separados, ej2: mensaje distinto, ej3: no imprime), No entregado (ej7) |
-| 14 | Agustin Aguero | **39/70** | 6 | 8 | 0 | 5 | 10 | 10 | 0 | Estructura (Ejercicio_01.py con mayúscula), Conceptual (ej1: print con coma en vez de f-string, ej3: bucle for en vez de comprensión), No entregado (ej8), Portabilidad (ej5: ruta hardcodeada C:\Users\...) |
-| 15 | Federico Riquelme | **49/70** | 5 | 2 | 10 | 10 | 10 | 2 | 10 | Conceptual (ej1: falta .title(), ej2: input() fuera del while y break en except, ej7: espera 2 argumentos en vez de 1) |
-| 16 | Nicolás Andrade | **22/70** | 2 | 5 | 3 | 1 | 1 | 3 | 7 | Conceptual (ej3: bucle en vez de comprensión, ej5 y ej7: confundidos) |
+| # | Alumno | Nota | Base 10 | Ej1 | Ej2 | Ej3 | Ej5 | Ej6 | Ej7 | Ej8 | Tipo de error |
+|---|--------|------|---------|-----|-----|-----|-----|-----|-----|-----|---------------|
+| 1 | Lucas Calvo Coltro | **70/70** | **10.0** | 10 | 10 | 10 | 10 | 10 | 10 | 10 | Estructura (archivos en raíz) |
+| 2 | Franco Terrazzino | **36/70** | **5.1** | 9 | 4 | 2 | 9 | 10 | 0 | 2 | Estructura (subdirectorios EJERCICIO 1/, naming), Conceptual (ej3: bucle en vez de comprensión, ej8: print en __str__), No entregado (ej7) |
+| 3 | Fernando Almansa | **70/70** | **10.0** | 10 | 10 | 10 | 10 | 10 | 10 | 10 | CSV fuera del directorio |
+| 4 | Mateo Dip | **68/70** | **9.7** | 10 | 9 | 10 | 10 | 9 | 10 | 10 | Detalle (ej2: "numero" sin tilde, ej6: typo "Correco") |
+| 5 | Ulises Sosa | **0/70** | **0.0** | 0 | 0 | 0 | 0 | 0 | 0 | 0 | No entregado (ej1-8) |
+| 6 | Perez Carlos | **55/70** | **7.9** | 10 | 10 | 1 | 4 | 10 | 10 | 10 | Conceptual (ej3: bucle for + .append roto en vez de comprensión), Confusión (ej5 entregado como ej4) |
+| 7 | Gallaretto Leonel | **67/70** | **9.6** | 10 | 9 | 10 | 10 | 10 | 10 | 8 | Naming (ejercicio.8.py con punto), Detalle (ej2: validación de rango no pedida) |
+| 8 | Sebastian Cordoba | **22/70** | **3.1** | 4 | 5 | 0 | 4 | 2 | 0 | 7 | Estructura (carpeta con espacio), Conceptual (ej1: .capitalize() en vez de .title(), sin print, ej5: .split() en dict, ej6: regex sin escapes ni $), No entregado (ej3, ej7), Copy-paste del enunciado como comentarios |
+| 9 | Lucas Jaime | **69/70** | **9.9** | 10 | 10 | 10 | 10 | 10 | 9 | 10 | Detalle (ej7: no imprime confirmación), Falta estudiantes.csv |
+| 10 | Mateo Duran | **69/70** | **9.9** | 9 | 10 | 10 | 10 | 10 | 10 | 10 | Detalle (ej1: falta coma en "Hola, Nombre") |
+| 11 | Pares JuanCruz | **66/70** | **9.4** | 8 | 10 | 10 | 10 | 9 | 9 | 10 | Detalle (ej1: "¡Hola!" con signos extra, ej6: @ escapado innecesario, ej7: mensaje del else impreciso) |
+| 12 | David Carletta | **3/70** | **0.4** | 2 | 1 | 0 | 0 | 0 | 0 | 0 | Conceptual (ej1: .capitalize() y concatenación en vez de f-string, ej2: input() fuera del try, ej3: bucle for, ej5: DictReader mal usado, ej7: sys.argv==1 siempre False), No entregado (ej6, ej8), Sintaxis (ej5: open sin comillas) |
+| 13 | Leandro Montenegro | **37/70** | **5.3** | 5 | 7 | 6 | 10 | 4 | 0 | 5 | Estructura (directorio sin guion bajo), Conceptual (ej6: regex sin escapar puntos, ej8: comillas extra en __str__), Detalle (ej1: nombre+apellido separados, ej2: mensaje distinto, ej3: no imprime), No entregado (ej7) |
+| 14 | Agustin Aguero | **39/70** | **5.6** | 6 | 8 | 0 | 5 | 10 | 10 | 0 | Estructura (Ejercicio_01.py con mayúscula), Conceptual (ej1: print con coma en vez de f-string, ej3: bucle for en vez de comprensión), No entregado (ej8), Portabilidad (ej5: ruta hardcodeada C:\Users\...) |
+| 15 | Federico Riquelme | **49/70** | **7.0** | 5 | 2 | 10 | 10 | 10 | 2 | 10 | Conceptual (ej1: falta .title(), ej2: input() fuera del while y break en except, ej7: espera 2 argumentos en vez de 1) |
+| 16 | Nicolás Andrade | **22/70** | **3.1** | 2 | 5 | 3 | 1 | 1 | 3 | 7 | Conceptual (ej3: bucle en vez de comprensión, ej5 y ej7: confundidos) |
 
 ---
 
