@@ -22,7 +22,7 @@
 | 10 | Mateo Duran | **69/70** | **9.9** | 9 | 10 | 10 | 10 | 10 | 10 | 10 | Detalle (ej1: falta coma en "Hola, Nombre") |
 | 11 | Pares JuanCruz | **66/70** | **9.4** | 8 | 10 | 10 | 10 | 9 | 9 | 10 | Detalle (ej1: "¡Hola!" con signos extra, ej6: @ escapado innecesario, ej7: mensaje del else impreciso) |
 | 12 | David Carletta | **3/70** | **0.4** | 2 | 1 | 0 | 0 | 0 | 0 | 0 | Conceptual (ej1: .capitalize() y concatenación en vez de f-string, ej2: input() fuera del try, ej3: bucle for, ej5: DictReader mal usado, ej7: sys.argv==1 siempre False), No entregado (ej6, ej8), Sintaxis (ej5: open sin comillas) |
-| 13 | Leandro Montenegro | **37/70** | **5.3** | 5 | 7 | 6 | 10 | 4 | 0 | 5 | Estructura (directorio sin guion bajo), Conceptual (ej6: regex sin escapar puntos, ej8: comillas extra en __str__), Detalle (ej1: nombre+apellido separados, ej2: mensaje distinto, ej3: no imprime), No entregado (ej7) |
+| 13 | Leandro Montenegro | **47/70** | **6.7** | 5 | 7 | 6 | 10 | 4 | 10 | 5 | Estructura (directorio sin guion bajo), Conceptual (ej6: regex sin escapar puntos, ej8: comillas extra en __str__), Detalle (ej1: nombre+apellido separados, ej2: mensaje distinto, ej3: no imprime). Nota: tenía ej7 perfecto pero lo borró en un commit posterior |
 | 14 | Agustin Aguero | **39/70** | **5.6** | 6 | 8 | 0 | 5 | 10 | 10 | 0 | Estructura (Ejercicio_01.py con mayúscula), Conceptual (ej1: print con coma en vez de f-string, ej3: bucle for en vez de comprensión), No entregado (ej8), Portabilidad (ej5: ruta hardcodeada C:\Users\...) |
 | 15 | Federico Riquelme | **49/70** | **7.0** | 5 | 2 | 10 | 10 | 10 | 2 | 10 | Conceptual (ej1: falta .title(), ej2: input() fuera del while y break en except, ej7: espera 2 argumentos en vez de 1) |
 | 16 | Nicolás Andrade | **22/70** | **3.1** | 2 | 5 | 3 | 1 | 1 | 3 | 7 | Conceptual (ej3: bucle en vez de comprensión, ej5 y ej7: confundidos) |
@@ -33,8 +33,8 @@
 
 | Métrica | Valor |
 |---------|-------|
-| Promedio | **50.2 / 70** |
-| Mediana | **58.0 / 70** |
+| Promedio | **51.6 / 70** |
+| Mediana | **60.5 / 70** |
 | Nota más alta | **70/70** (Lucas Calvo Coltro, Fernando Almansa) |
 | Nota más baja | **3/70** (David Carletta) |
 | Aprobados (≥42/70) | **10 / 16** (62%) |
