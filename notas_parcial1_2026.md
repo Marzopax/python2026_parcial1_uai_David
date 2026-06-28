@@ -14,7 +14,7 @@
 | 2 | Franco Terrazzino | **36/70** | **5.1** | 9 | 4 | 2 | 9 | 10 | 0 | 2 | Estructura (subdirectorios EJERCICIO 1/, naming), Conceptual (ej3: bucle en vez de comprensión, ej8: print en __str__), No entregado (ej7) |
 | 3 | Fernando Almansa | **70/70** | **10.0** | 10 | 10 | 10 | 10 | 10 | 10 | 10 | CSV fuera del directorio |
 | 4 | Mateo Dip | **68/70** | **9.7** | 10 | 9 | 10 | 10 | 9 | 10 | 10 | Detalle (ej2: "numero" sin tilde, ej6: typo "Correco") |
-| 5 | Ulises Sosa | **0/70** | **0.0** | 0 | 0 | 0 | 0 | 0 | 0 | 0 | No entregado (ej1-8) |
+| 5 | Ulises Sosa | **61/70** | **8.7** | 10 | 10 | 5 | 10 | 8 | 10 | 8 | Naming (problemaX.py en vez de ejercicio_X.py — sí entregó todos los 7), Detalle (ej3: usa bucle for + append en vez de lista de comprensión, ej6: ^ y \w innecesarios, ej8: "de" en vez de "por") |
 | 6 | Perez Carlos | **55/70** | **7.9** | 10 | 10 | 1 | 4 | 10 | 10 | 10 | Conceptual (ej3: bucle for + .append roto en vez de comprensión), Confusión (ej5 entregado como ej4) |
 | 7 | Gallaretto Leonel | **67/70** | **9.6** | 10 | 9 | 10 | 10 | 10 | 10 | 8 | Naming (ejercicio.8.py con punto), Detalle (ej2: validación de rango no pedida) |
 | 8 | Sebastian Cordoba | **22/70** | **3.1** | 4 | 5 | 0 | 4 | 2 | 0 | 7 | Estructura (carpeta con espacio), Conceptual (ej1: .capitalize() en vez de .title(), sin print, ej5: .split() en dict, ej6: regex sin escapes ni $), No entregado (ej3, ej7), Copy-paste del enunciado como comentarios |
@@ -33,12 +33,12 @@
 
 | Métrica | Valor |
 |---------|-------|
-| Promedio | **45.1 / 70** |
-| Mediana | **52.0 / 70** |
+| Promedio | **50.2 / 70** |
+| Mediana | **58.0 / 70** |
 | Nota más alta | **70/70** (Lucas Calvo Coltro, Fernando Almansa) |
-| Nota más baja | **0/70** (Ulises Sosa) |
-| Aprobados (≥42/70) | **9 / 16** (56%) |
-| Desaprobados (<42/70) | **7 / 16** (44%) |
+| Nota más baja | **3/70** (David Carletta) |
+| Aprobados (≥42/70) | **10 / 16** (62%) |
+| Desaprobados (<42/70) | **6 / 16** (38%) |
 
 ### Rendimiento por ejercicio
 
