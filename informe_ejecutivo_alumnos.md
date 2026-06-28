@@ -7,6 +7,22 @@
 
 ---
 
+## Introducción
+
+¡Hola! Este informe contiene toda la información que necesitás sobre el **Parcial 1 de Python**. Está organizado en 8 secciones, pero **no tenés que leerlo todo**: solo lo que corresponda a tu situación. Te explico qué leer según tu caso:
+
+- **Si tu nota es ≥ 6 (Base 10) o tu nota suma es ≥ 42/70:** Aprobaste el parcial. Leé la **Sección 1** para ver tu nota desglosada y los comentarios, y la **Sección 2** para conocer los errores más comunes de la clase (útil para no repetirlos en próximos parciales). **No debés hacer la actividad de recuperación.**
+- **Si tu nota es < 6 (Base 10) o tu nota suma es < 42/70:** No aprobaste. Leé **todo el informe**, en especial:
+  - **Sección 3** para confirmar tu condición.
+  - **Sección 4** con las instrucciones generales de la actividad de recuperación.
+  - **Sección 5** con el enunciado particular que armé para vos: te dice exactamente qué ejercicios rehacer, qué errores tuviste y cómo resolverlos.
+  - **Sección 6** con el formato exacto que debe tener tu archivo `video_transcripcion.md`.
+  - **Sección 7** con los pasos para armar el Pull Request de la entrega.
+
+El objetivo de la recuperación es que demuestres que **entendiste los conceptos** que fallaron en el parcial: por eso la actividad pide un video explicativo y una transcripción, no solo el código. Si tenés dudas, contactame por los canales habituales.
+
+---
+
 ## 1. Notas del parcial
 
 Cada ejercicio obligatorio se califica de 0 a 10. La **nota final** es la suma de los 7 ejercicios obligatorios sobre un total de **70 puntos**. La columna **Base 10** es la nota equivalente en escala 0-10.
