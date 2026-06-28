@@ -11,7 +11,7 @@
 | # | Alumno | Nota | Base 10 | Ej1 | Ej2 | Ej3 | Ej5 | Ej6 | Ej7 | Ej8 | Tipo de error |
 |---|--------|------|---------|-----|-----|-----|-----|-----|-----|-----|---------------|
 | 1 | Lucas Calvo Coltro | **70/70** | **10.0** | 10 | 10 | 10 | 10 | 10 | 10 | 10 | Estructura (archivos en raíz) |
-| 2 | Franco Terrazzino | **36/70** | **5.1** | 9 | 4 | 2 | 9 | 10 | 0 | 2 | Estructura (subdirectorios EJERCICIO 1/, naming), Conceptual (ej3: bucle en vez de comprensión, ej8: print en __str__), No entregado (ej7) |
+| 2 | Franco Terrazzino | **38/70** | **5.4** | 9 | 6 | 2 | 9 | 10 | 0 | 2 | Estructura (subdirectorios EJERCICIO 1/, naming), Conceptual (ej3: bucle en vez de comprensión, ej8: print en __str__), No entregado (ej7). Nota: ej2 funciona bien, solo cambia el nombre de la función y el mensaje |
 | 3 | Fernando Almansa | **70/70** | **10.0** | 10 | 10 | 10 | 10 | 10 | 10 | 10 | CSV fuera del directorio |
 | 4 | Mateo Dip | **68/70** | **9.7** | 10 | 9 | 10 | 10 | 9 | 10 | 10 | Detalle (ej2: "numero" sin tilde, ej6: typo "Correco") |
 | 5 | Ulises Sosa | **61/70** | **8.7** | 10 | 10 | 5 | 10 | 8 | 10 | 8 | Naming (problemaX.py en vez de ejercicio_X.py — sí entregó todos los 7), Detalle (ej3: usa bucle for + append en vez de lista de comprensión, ej6: ^ y \w innecesarios, ej8: "de" en vez de "por") |
@@ -25,7 +25,7 @@
 | 13 | Leandro Montenegro | **47/70** | **6.7** | 5 | 7 | 6 | 10 | 4 | 10 | 5 | Estructura (directorio sin guion bajo), Conceptual (ej6: regex sin escapar puntos, ej8: comillas extra en __str__), Detalle (ej1: nombre+apellido separados, ej2: mensaje distinto, ej3: no imprime). Nota: tenía ej7 perfecto pero lo borró en un commit posterior |
 | 14 | Agustin Aguero | **39/70** | **5.6** | 6 | 8 | 0 | 5 | 10 | 10 | 0 | Estructura (Ejercicio_01.py con mayúscula), Conceptual (ej1: print con coma en vez de f-string, ej3: bucle for en vez de comprensión), No entregado (ej8), Portabilidad (ej5: ruta hardcodeada C:\Users\...) |
 | 15 | Federico Riquelme | **49/70** | **7.0** | 5 | 2 | 10 | 10 | 10 | 2 | 10 | Conceptual (ej1: falta .title(), ej2: input() fuera del while y break en except, ej7: espera 2 argumentos en vez de 1) |
-| 16 | Nicolás Andrade | **22/70** | **3.1** | 2 | 5 | 3 | 1 | 1 | 3 | 7 | Conceptual (ej3: bucle en vez de comprensión, ej5 y ej7: confundidos) |
+| 16 | Nicolás Andrade | **24/70** | **3.4** | 2 | 5 | 3 | 3 | 1 | 3 | 7 | Conceptual (ej3: bucle en vez de comprensión, ej5: código mezclado con ej7, ej6: split en vez de regex, ej7: validación >= en vez de ==). Nota: entregó los 7 archivos pero con errores graves |
 
 ---
 
@@ -33,12 +33,12 @@
 
 | Métrica | Valor |
 |---------|-------|
-| Promedio | **51.6 / 70** |
-| Mediana | **60.5 / 70** |
+| Promedio | **51.1 / 70** |
+| Mediana | **58.0 / 70** |
 | Nota más alta | **70/70** (Lucas Calvo Coltro, Fernando Almansa) |
 | Nota más baja | **3/70** (David Carletta) |
-| Aprobados (≥42/70) | **10 / 16** (62%) |
-| Desaprobados (<42/70) | **6 / 16** (38%) |
+| Aprobados (≥42/70) | **11 / 16** (69%) |
+| Desaprobados (<42/70) | **5 / 16** (31%) |
 
 ### Rendimiento por ejercicio
 
